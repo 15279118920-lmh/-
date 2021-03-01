@@ -1,0 +1,105 @@
+.header{
+    background: #f9f9f9;
+    line-height: 35px;
+}
+.header-in{
+    width: 960px;
+    height: 35px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-left: 8px;
+}
+.header-in .left p a{
+    color: #ff2832;
+    margin-right: 5px;
+    margin-left: 3px;
+}
+.header-in .left p{
+    display: none;
+}
+.header-in .left p:last-child .user{
+    font-weight: bold;
+}
+.header-in .left p:last-child #quit{
+    cursor: pointer;
+}
+.header-in .left p:last-child #quit:hover{
+    color: #ff2832;
+}
+.header-in .left p:last-child b{
+    color: #ff2832;
+}
+.header-in .left .on{
+    display: block;
+}
+.header-in .left{
+    margin-right: 230px;
+}
+.header-in .right p{
+    float: left;
+    cursor: pointer;
+    height: 26px;
+    width: 63px;
+    text-align: center;
+    margin-top: 4px;
+    line-height: 26px;
+}
+.header-in .right p .icon-pic{
+    display: inline-block;
+    width: 1px;
+    height: 14px;
+    float: left;
+    background: url("../images/head_sprite.png") no-repeat left -293px;
+    position: relative;
+    top: 7px;
+}
+.header-in .right .submenu{
+    width: 84px;
+}
+.header-in .right .submenu .icon-phone{
+    position: relative;
+    top: 4px;
+    left: -2px;
+}
+.header-in .right .submenu .icon{
+    display: inline-block;
+    width: 10px;
+    height: 8px;
+    background: url("../images/head_sprite.png") no-repeat -72px -312px;
+    position: relative;
+    top: -2px;
+}
+.header-in .right .car{
+    width: 84px;
+}
+.header-in .right .car img{
+    position: relative;
+    top: 4px;
+    left: -4px;
+}
+.header-in .right .car #num{
+    color: #ff2832;
+}
+.banner{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+.banner>img{
+    margin-top: 16px;
+    cursor: pointer;
+}
+.banner .logo{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.banner .list{
+    margin-top: 20px;
+    cursor: pointer;
+}
+.line{
+    width: 100%;
+    height: 4px;
+    background: #ff2832;
+}

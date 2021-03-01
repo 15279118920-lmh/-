@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车-当当网</title>
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/cart-header.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../js/tools.js"></script>
+    <script src="../js/cart.js"></script>
+</head>
+<body>
+    <!--头部-->
+    <div class="header">
+    <div class="header-in clearfix">
+        <div class="left logo-in fl">
+            <p class="on">欢迎光临当当，请<a href="javascript:;" class="join">登录</a>成为会员</p>
+            <p ><b>Hi ,</b><a href="javascript:;" class="user">15279118920</a><span id="quit">[ 退出 ]</span></p>
+        </div>
+        <div class="right fr">
+            <p class="car"><img src="../images/car.gif" alt="">购物车<i id="num">0</i></p>
+            <p><b class="icon-pic"></b>我的订单</p>
+            <p><b class="icon-pic"></b>小说投稿</p>
+            <p class="submenu"><b class="icon-pic"></b><img src="../images/phone.PNG" alt="" class="icon-phone">手机当当</p>
+            <p class="submenu"><b class="icon-pic"></b>我的当当 <span class="icon"></span></p>
+            <p class="submenu"><b class="icon-pic"></b>企业采购 <span class="icon"></span></p>
+            <p class="submenu"><b class="icon-pic"></b>客户服务 <span class="icon"></span></p>
+        </div>
+    </div>
+</div>
+    <!--    广告区域-->
+    <div class="banner clearfix">
+        <img src="http://img60.ddimg.cn/2021/2/22/2021022216064627943.jpg" alt="">
+        <div class="logo fl">
+            <img src="../images/logo.PNG" alt="">
+        </div>
+        <div class="list fr">
+            <img src="../images/buzou.PNG" alt="">
+        </div>
+    </div>
+    <!--分割线-->
+    <div class="line"></div>
+    <!--购物车商品为空时-->
+    <div class="empty">
+        <img src="../images/logo-in/empty.png" alt="" class="empty-logo">
+        <p class="msg">您的购物车还是空的，您可以：</p>
+        <a href="../html/index_item.html" class="go-btn">去逛逛</a>
+    </div>
+    <!--商品信息模块-->
+    <div class="item">
+        <ul class="tools clearfix">
+            <li class="check">
+                <input type="checkbox" id="quan"><label for="quan">全选</label>
+            </li>
+            <li>商品信息</li>
+            <li>单价（元）</li>
+            <li>数量</li>
+            <li>金额（元）</li>
+            <li>操作</li>
+        </ul>
+        <div class="shop-logo">
+            <input type="checkbox">
+            <span class="shop-icon"></span>
+            <a href="javascript:;">当当自营</a>
+        </div>
+        <div class="item-list">
+            <div class="list clearfix">
+                <div class="check-item">
+                    <input type="checkbox">
+                </div>
+                <div class="item-img">
+                    <img src="http://img3x6.ddimg.cn/53/26/22790546-1_m_1.jpg" alt="">
+                </div>
+                <div class="item-info">
+                    <p class="title">中国最美的100个地方 图说天下 国家地理</p>
+                </div>
+                <div class="item-price">
+                    <p class="price">￥<span>19.5</span></p>
+                </div>
+                <div class="item-num">
+                    <span class="amount clearfix">
+                        <a href="javascript:;" class="add fl">-</a>
+                        <input type="text" class="fl" value="1">
+                        <a href="javascript:;" class="reduce fl">+</a>
+                    </span>
+                </div>
+                <div class="all-price">
+                    <p>￥<span class="money">19.5</span></p>
+                </div>
+                <div class="item-tool">
+                    <a href="javascript:;" class="collect">移入收藏</a>
+                    <a href="javascript:;" class="delete">删除</a>
+                </div>
+                <div class="remove-item">
+                    <p class="msg">您确定要删除商品吗？</p>
+                    <span class="sure">确定</span>
+                    <span class="no">取消</span>
+                </div>
+                <div class="item-line"></div>
+            </div>
+        </div>
+        <div class="item-together">
+            <span class="shop">店铺合计</span>
+            <p>￥<span class="shop-money">64.80</span></p>
+        </div>
+    </div>
+    <!--购物总结模块-->
+    <div class="shop-totle">
+        <div class="shop-left fl">
+            <input type="checkbox" id="quanxuan"><label for="quanxuan">全选</label>
+            <a href="javascript:;" class="remove-checked">批量删除</a>
+            <span class="check-item">已选择<i class="num-item">0</i>件商品</span>
+        </div>
+        <div class="shop-right fr">
+            <p class="totle-money">总计不含运费:<span>￥0.00</span></p>
+            <span class="totle-btn">结<b></b>算</span>
+        </div>
+    </div>
+    <!--推荐商品-->
+<!--    <div class="main">-->
+<!--        <div class="shop-msg clearfix">-->
+<!--            <h3 class="msg fl">根据购物车中的商品为您推荐</h3>-->
+<!--            <div class="btn fr">-->
+<!--                <span class="item-tab on"></span>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div id="item-box">-->
+<!--&lt;!&ndash;            <ul class="shop-item clearfix">&ndash;&gt;-->
+<!--&lt;!&ndash;                <li class="list-item">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <img src="http://img3x0.ddimg.cn/80/13/24166970-1_b_12.jpg" alt="">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <p class="info"><span>自卑与超越（完整全译本）</span></p>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <p class="item-price">￥23.60</p>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <p class="pinglun"><span class="icon fl"></span>已有<span class="people">164618</span>位用户评价</p>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <span class="add-cart">加入购物车</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <span class="mask">已成功加入购物车</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                </li>&ndash;&gt;-->
+<!--&lt;!&ndash;            </ul>&ndash;&gt;-->
+<!--        </div>-->
+<!--        <span class="left-btn"></span>-->
+<!--        <span class="right-btn"></span>-->
+<!--    </div>-->
+</body>
+</html>

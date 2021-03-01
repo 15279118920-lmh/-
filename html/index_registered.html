@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/index_registered.css">
+    <link rel="stylesheet" href="../css/footer-Home%20page.css">
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../js/regist.js"></script>
+</head>
+<body>
+    <div class="header clearfix">
+        <div class="header-logo fl">
+            <h1 class="logo">
+                <a href="javascript:;">
+                    <img src="../images/logo-in/ddnewhead_logo.gif" alt="">
+                </a>
+            </h1>
+        </div>
+        <div class="menu fl">
+            <ul class="nav clearfix">
+                <li><b></b><a href="javascript:;">我的订单</a><span></span></li>
+                <li><a href="javascript:;">我的当当</a><span></span></li>
+                <li><a href="javascript:;">礼品卡</a><b class="menu-btn"></b><span></span></li>
+                <li><a href="javascript:;">手机当当</a><b class="menu-btn"></b><span></span></li>
+                <li><a href="javascript:;">企业</a><span></span></li>
+                <li><a href="javascript:;">销售</a><span></span></li>
+                <li><a href="javascript:;">帮助</a></li>
+            </ul>
+            <p class="fr logo-in">
+                欢迎光临当当网，
+                <a href="javascript:;" id="logo-in">请登录</a>
+                <a href="javascript:;" id="join">免费注册</a>
+            </p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="shadow-box">
+            <div class="registered">
+                <div class="title clearfix">
+                    <div class="title-left fl">
+                        <span class="msg">新用户注册</span>
+                    </div>
+                    <div class="title-right fr">
+                        <i class="icon-pic"></i>
+                        <a href="javascript:;">当当首页</a>
+                        <a href="javascript:;">注册帮助</a>
+                    </div>
+                </div>
+                <div class="hots">
+                    <p><span></span>贴心提示：请勿设置与邮箱密码相同的账户登录密码或支付密码，防止不法分子窃取您的当当账户信息 <a href="javascript:;">谨防诈骗</a>!</p>
+                </div>
+                <div class="main">
+                    <p class="phone">
+                        <label for="phone">手机号码</label><input type="text" id="phone" name="user" placeholder="请输入您的电话号码" autocomplete="off">
+                        <span class="icon-wrong"></span>
+                        <span class="tips">手机号可用于登录、找回密码、接收订单通知等服务</span>
+                    </p>
+                    <p class="password">
+                        <label for="password">登录密码</label><input type="password" id="password" name="password" value="" autocomplete="off" maxlength="20">
+                        <span class="icon-wrong"></span>
+                        <span class="level-ease level">
+                            <b id="ease-ease"></b>
+                            <b id="ease-fine"></b>
+                            <b id="ease-diff"></b>
+                            <i class="info">密码过于简单</i>
+                        </span>
+                        <span class="level-simple level">
+                            <b id="simple-ease"></b>
+                            <b id="simple-fine"></b>
+                            <b id="simple-diff"></b>
+                            <i class="info">试试字母、符号、数字的组合更安全</i>
+                        </span>
+                        <span class="level-diffcult level">
+                            <b id="diffcult-ease"></b>
+                            <b id="diffcult-fine"></b>
+                            <b id="diffcult-diff"></b>
+                            <i class="info">密码设置安全，放心使用</i>
+                        </span>
+                        <span class="tips">密码由6-20个字符，可由英文，数字及符号组成</span>
+                    </p>
+                    <p class="sure">
+                        <label for="sure">确认密码</label><input type="password" id="sure" name="password-sure" value="" autocomplete="off">
+                        <span class="icon-wrong"></span>
+                        <span class="tips">请在次输入密码</span>
+                    </p>
+                    <p class="checked-code">
+                        <label for="code">验证码</label><input type="text" id="code" name="code" placeholder="请输入验证码" autocomplete="off" maxlength="4">
+                        <span class="icon-wrong"></span>
+                        <b class="code"></b>
+                        <a href="javascript:;" class="change-code">换张图</a>
+                        <span class="tips">请填写图片的字符，不区分大小写</span>
+                    </p>
+                    <div class="item">
+                        <input type="checkbox" checked>
+                        <span>
+                            我已阅读并同意
+                            <a href="">《当当交易条款》</a>
+                            <a href="">《当当社区条款》</a>和
+                            <a href="">《当当隐私政策》</a>
+                        </span>
+                        <p class="warn">您必须同意当当服务条款后，才能提交注册。</p>
+                    </div>
+                </div>
+                <div class="submit">
+                    <button>立即注册</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="line"></div>
+    <div class="footer">
+        <div class="footer-msg">
+            <div class="footer-msg-in">
+                <div class="msg-news">
+                    <a href="javascript:;">公司简介</a><span>|</span>
+                    <a href="javascript:;">诚聘英才</a><span>|</span>
+                    <a href="javascript:;">网站联盟</a><span>|</span>
+                    <a href="javascript:;">当当招商</a><span>|</span>
+                    <a href="javascript:;">机构销售</a><span>|</span>
+                    <a href="javascript:;">手机当当</a><span>|</span>
+                    <a href="javascript:;">官方Blog</a><span>|</span>
+                    <a href="javascript:;">知识产权</a><span>|</span>
+                    <a href="javascript:;">热词搜索</a>
+                </div>
+                <div class="msg-copy">
+                    <span>Copyright 2004 - 2021 当当网. All Rights Reserved</span>
+                    <p class="msg-copy-one">
+                        <b>京ICP证041189号</b><span>|</span>
+                        <a href="javascript:;">出版物经营许可证,新出发京批字第直0673号</a><span>|</span>
+                        <a href="javascript:;">食品经营许可证：JY11101050363440</a>
+                    </p>
+                    <p class="msg-copy-two">
+                        <a>京ICP备17043473号-1</a><span>|</span>
+                        <a href="javascript:;"><img src="../images/guohui.png" alt="">京公网安备 11010502037644号京公网安备11010502037644号</a><span>|</span>
+                        <a href="javascript:;">经营许可证编号：合字B2-20160011</a><span>|</span>
+                        <a href="javascript:;">互联网药品信息服务资格证</a>
+                    </p>
+                    <p class="msg-copy-three">
+                        <b>互联网违法和不良信息举报电话: 4001066666-5 邮箱:</b>
+                        <a href="#">service@cs.dangdang.com</a>
+                    </p>
+                    <p class="msg-copy-four">
+                        <a href="javascript:;">网络出版服务许可证（署）网出证（京）字第117号</a>
+                        <a href="javascript:;">北京当当科文电子商务有限公司</a><i>,</i>
+                        <b>通信地址：北京市朝阳区北三环东路8号静安中心</b>
+                    </p>
+                </div>
+                <div class="msg-brand">
+                    <a href="javascript:;"><img src="../images/footer-brand1.png" alt=""></a>
+                    <a href="javascript:;"><img src="../images/footer-brand2.png" alt=""></a>
+                    <a href="javascript:;"><img src="../images/footer-brand3.png" alt=""></a>
+                    <a href="javascript:;"><img src="../images/footer-brand4.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

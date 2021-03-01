@@ -1,0 +1,531 @@
+@charset "UTF-8";
+body {
+  width: 100%;
+  font-size: 12px;
+  font-family: "微软雅黑";
+  background: #f6f9fb;
+  height: auto;
+  color: #404040;
+}
+
+.header {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 2px;
+  border-top: 2px solid #9b9b9b;
+  background: #fff;
+  border-bottom: 3px solid #f07700;
+}
+.header .header-logo a {
+  display: inline-block;
+}
+
+.menu {
+  margin-left: 380px;
+}
+.menu .nav {
+  line-height: 20px;
+}
+.menu .logo-in {
+  padding-top: 2px;
+  padding-right: 10px;
+}
+.menu .logo-in a {
+  color: #1a66b3;
+}
+.menu .logo-in a:first-child {
+  margin-right: 5px;
+}
+.menu .logo-in a:hover {
+  text-decoration: underline;
+}
+.menu .nav li {
+  float: left;
+  padding-left: 8px;
+}
+.menu .nav li:first-child b {
+  display: inline-block;
+  width: 14px;
+  height: 20px;
+  background: url("../images/logo-in/unite_header_1101.gif") no-repeat 0 -234px;
+  margin-right: 2px;
+  float: left;
+}
+.menu .nav li .menu-btn {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: url("../images/logo-in/unite_header_1101.gif") no-repeat -300px -200px;
+  margin-right: 5px;
+  position: relative;
+  left: 4px;
+}
+.menu .nav li a {
+  color: #404040;
+}
+.menu .nav li a:hover {
+  color: #f60;
+  text-decoration: underline;
+}
+.menu .nav li span {
+  display: inline-block;
+  height: 12px;
+  width: 1px;
+  background: url("../images/logo-in/unite_header_1101.gif") no-repeat;
+  position: relative;
+  top: 1px;
+  margin-left: 8px;
+}
+
+.content {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.content .shadow-box {
+  background-color: #ebeeef;
+  width: 950px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.content .shadow-box .registered {
+  background: #fff;
+  position: relative;
+  top: -10px;
+  right: -10px;
+  width: 950px;
+  box-shadow: -1px 1px 1px #e8ebec;
+}
+.content .shadow-box .registered .title {
+  margin-left: 10px;
+  padding-top: 30px;
+  border-bottom: 1px solid #eceef2;
+}
+.content .shadow-box .registered .title .title-left {
+  padding-left: 20px;
+  position: relative;
+}
+.content .shadow-box .registered .title .msg {
+  display: inline-block;
+  width: 140px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #eceef2;
+  color: #404040;
+  border-bottom: none;
+  position: absolute;
+  z-index: 100;
+  background: #fff;
+  margin-bottom: -1px;
+}
+.content .shadow-box .registered .title .title-right {
+  line-height: 48px;
+}
+.content .shadow-box .registered .title .title-right .icon-pic {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: url("../images/logo-in/icon.png") no-repeat 0 0;
+  position: relative;
+  top: 2px;
+}
+.content .shadow-box .registered .title .title-right a {
+  color: #404040;
+}
+.content .shadow-box .registered .title .title-right a:hover {
+  color: #f60;
+}
+.content .shadow-box .registered .title .title-right a:nth-child(2) {
+  margin-right: 15px;
+}
+.content .shadow-box .registered .title .title-right a:last-child {
+  margin-right: 20px;
+}
+.content .shadow-box .registered .hots {
+  padding-left: 128px;
+  padding-top: 16px;
+  padding-bottom: 30px;
+}
+.content .shadow-box .registered .hots p {
+  width: 702px;
+  height: 26px;
+  border: 1px solid #fedbd1;
+  line-height: 26px;
+  background: #fef7f5;
+}
+.content .shadow-box .registered .hots p span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: url("../images/logo-in/icon.png") no-repeat 0 -60px;
+  position: relative;
+  top: 2px;
+  margin-left: 4px;
+  margin-right: 6px;
+}
+.content .shadow-box .registered .hots p a {
+  margin-left: 4px;
+  color: #1a66b3;
+}
+.content .shadow-box .registered .hots p a:hover {
+  text-decoration: underline;
+}
+.content .shadow-box .registered .main {
+  padding-left: 280px;
+}
+.content .shadow-box .registered .main .phone {
+  position: relative;
+  height: 70px;
+}
+.content .shadow-box .registered .main .phone label {
+  font-size: 14px;
+  line-height: 40px;
+  margin-right: 10px;
+}
+.content .shadow-box .registered .main .phone input[type=text] {
+  width: 316px;
+  height: 40px;
+  border: 1px solid #eceef2;
+  border-radius: 2px;
+  outline: none;
+  padding-left: 12px;
+  font-size: 14px;
+  box-sizing: border-box;
+  color: #333;
+}
+.content .shadow-box .registered .main .phone .focus {
+  border-color: #969696 !important;
+}
+.content .shadow-box .registered .main .phone .tips {
+  line-height: 30px;
+  margin-left: 80px;
+  display: none;
+}
+.content .shadow-box .registered .main .phone .wrong {
+  border-color: #ff4646 !important;
+  background-color: #fef0ef;
+}
+.content .shadow-box .registered .main .phone .wrong-color {
+  color: #f00000;
+}
+.content .shadow-box .registered .main .phone .icon-wrong {
+  position: absolute;
+  right: 40%;
+  top: 15px;
+  width: 16px;
+  height: 16px;
+  background: url("../images/logo-in/icon.png") no-repeat 0 -20px;
+  display: none;
+}
+.content .shadow-box .registered .main .phone .icon-on {
+  display: block;
+}
+.content .shadow-box .registered .main .phone .icon-right {
+  background: url("../images/logo-in/icon.png") no-repeat 0 -40px;
+  display: block;
+}
+.content .shadow-box .registered .main .phone .tips-on {
+  display: block;
+}
+.content .shadow-box .registered .main .password {
+  position: relative;
+  height: 70px;
+}
+.content .shadow-box .registered .main .password label {
+  font-size: 14px;
+  line-height: 40px;
+  margin-right: 10px;
+}
+.content .shadow-box .registered .main .password input[type=password] {
+  width: 316px;
+  height: 40px;
+  border: 1px solid #eceef2;
+  border-radius: 2px;
+  outline: none;
+  padding-left: 12px;
+  font-size: 14px;
+  box-sizing: border-box;
+  color: #333;
+}
+.content .shadow-box .registered .main .password .level-ease {
+  box-sizing: border-box;
+  padding-left: 80px;
+  padding-top: 5px;
+  display: none;
+}
+.content .shadow-box .registered .main .password .level-ease b {
+  display: inline-block;
+  width: 22px;
+  height: 10px;
+  background: #d6d6d6;
+  margin-left: 1px;
+}
+.content .shadow-box .registered .main .password .level-ease b:nth-child(1) {
+  background: #ff3600;
+  border-radius: 2px 0 0 2px;
+}
+.content .shadow-box .registered .main .password .level-ease .info {
+  margin-left: 5px;
+}
+.content .shadow-box .registered .main .password .level-simple {
+  box-sizing: border-box;
+  padding-left: 80px;
+  padding-top: 5px;
+  display: none;
+}
+.content .shadow-box .registered .main .password .level-simple b {
+  display: inline-block;
+  width: 22px;
+  height: 10px;
+  background: #d6d6d6;
+  margin-left: 1px;
+}
+.content .shadow-box .registered .main .password .level-simple b:nth-child(1) {
+  background: #ff3600;
+  border-radius: 2px 0 0 2px;
+}
+.content .shadow-box .registered .main .password .level-simple b:nth-child(2) {
+  background: #ffc000;
+  border-radius: 2px 0 0 2px;
+}
+.content .shadow-box .registered .main .password .level-simple .info {
+  margin-left: 5px;
+}
+.content .shadow-box .registered .main .password .level-diffcult {
+  box-sizing: border-box;
+  padding-left: 80px;
+  padding-top: 5px;
+  display: none;
+}
+.content .shadow-box .registered .main .password .level-diffcult b {
+  display: inline-block;
+  width: 22px;
+  height: 10px;
+  background: #d6d6d6;
+  margin-left: 1px;
+}
+.content .shadow-box .registered .main .password .level-diffcult b:nth-child(1) {
+  background: #ff3600;
+  border-radius: 2px 0 0 2px;
+}
+.content .shadow-box .registered .main .password .level-diffcult b:nth-child(2) {
+  background: #ffc000;
+  border-radius: 2px 0 0 2px;
+}
+.content .shadow-box .registered .main .password .level-diffcult b:nth-child(3) {
+  background: #71b300;
+  border-radius: 2px 0 0 2px;
+}
+.content .shadow-box .registered .main .password .level-diffcult .info {
+  margin-left: 5px;
+}
+.content .shadow-box .registered .main .password .info-on {
+  display: block;
+}
+.content .shadow-box .registered .main .password .focus {
+  border-color: #969696 !important;
+}
+.content .shadow-box .registered .main .password .tips {
+  line-height: 30px;
+  margin-left: 80px;
+  display: none;
+}
+.content .shadow-box .registered .main .password .icon-wrong {
+  position: absolute;
+  right: 40%;
+  top: 15px;
+  width: 16px;
+  height: 16px;
+  background: url("../images/logo-in/icon.png") no-repeat 0 -20px;
+  display: none;
+}
+.content .shadow-box .registered .main .password .wrong {
+  border-color: #ff4646 !important;
+  background-color: #fef0ef;
+}
+.content .shadow-box .registered .main .password .wrong-color {
+  color: #f00000;
+}
+.content .shadow-box .registered .main .password .icon-on {
+  display: block;
+}
+.content .shadow-box .registered .main .password .icon-right {
+  background: url("../images/logo-in/icon.png") no-repeat 0 -40px;
+  display: block;
+}
+.content .shadow-box .registered .main .password .tips-on {
+  display: block;
+}
+.content .shadow-box .registered .main .sure {
+  position: relative;
+  height: 70px;
+}
+.content .shadow-box .registered .main .sure label {
+  font-size: 14px;
+  line-height: 40px;
+  margin-right: 10px;
+}
+.content .shadow-box .registered .main .sure input[type=password] {
+  width: 316px;
+  height: 40px;
+  border: 1px solid #eceef2;
+  border-radius: 2px;
+  outline: none;
+  padding-left: 12px;
+  font-size: 14px;
+  box-sizing: border-box;
+  color: #333;
+}
+.content .shadow-box .registered .main .sure .focus {
+  border-color: #969696 !important;
+}
+.content .shadow-box .registered .main .sure .tips {
+  line-height: 30px;
+  margin-left: 80px;
+  display: none;
+}
+.content .shadow-box .registered .main .sure .icon-wrong {
+  position: absolute;
+  right: 40%;
+  top: 15px;
+  width: 16px;
+  height: 16px;
+  background: url("../images/logo-in/icon.png") no-repeat 0 -20px;
+  display: none;
+}
+.content .shadow-box .registered .main .sure .wrong {
+  border-color: #ff4646 !important;
+  background-color: #fef0ef;
+}
+.content .shadow-box .registered .main .sure .wrong-color {
+  color: #f00000;
+}
+.content .shadow-box .registered .main .sure .icon-on {
+  display: block;
+}
+.content .shadow-box .registered .main .sure .icon-right {
+  background: url("../images/logo-in/icon.png") no-repeat 0 -40px;
+  display: block;
+}
+.content .shadow-box .registered .main .sure .tips-on {
+  display: block;
+}
+.content .shadow-box .registered .main .checked-code {
+  position: relative;
+  height: 70px;
+}
+.content .shadow-box .registered .main .checked-code label {
+  font-size: 14px;
+  line-height: 40px;
+  margin-right: 10px;
+  margin-left: 14px;
+}
+.content .shadow-box .registered .main .checked-code input[type=text] {
+  width: 180px;
+  height: 40px;
+  border: 1px solid #eceef2;
+  border-radius: 2px;
+  outline: none;
+  padding-left: 12px;
+  font-size: 14px;
+  box-sizing: border-box;
+  color: #333;
+}
+.content .shadow-box .registered .main .checked-code .tips {
+  line-height: 30px;
+  margin-left: 80px;
+  display: none;
+}
+.content .shadow-box .registered .main .checked-code .code {
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+  margin-left: 10px;
+  border: 1px solid #eceef2;
+  box-sizing: border-box;
+}
+.content .shadow-box .registered .main .checked-code .focus {
+  border-color: #969696 !important;
+}
+.content .shadow-box .registered .main .checked-code .icon-wrong {
+  position: absolute;
+  right: 65%;
+  top: 15px;
+  width: 16px;
+  height: 16px;
+  background: url("../images/logo-in/icon.png") no-repeat 0 -20px;
+  display: none;
+}
+.content .shadow-box .registered .main .checked-code .wrong {
+  border-color: #ff4646 !important;
+  background-color: #fef0ef;
+}
+.content .shadow-box .registered .main .checked-code .wrong-color {
+  color: #f00000;
+}
+.content .shadow-box .registered .main .checked-code .icon-on {
+  display: block;
+}
+.content .shadow-box .registered .main .checked-code .icon-right {
+  background: url("../images/logo-in/icon.png") no-repeat 0 -40px;
+  display: block;
+}
+.content .shadow-box .registered .main .checked-code .tips-on {
+  display: block;
+}
+.content .shadow-box .registered .main .checked-code .change-code {
+  color: #1a66b3;
+}
+.content .shadow-box .registered .main .checked-code .change-code:hover {
+  text-decoration: underline;
+}
+.content .shadow-box .registered .main .item {
+  margin-left: 65px;
+  height: 45px;
+}
+.content .shadow-box .registered .main .item input {
+  margin-right: 5px;
+}
+.content .shadow-box .registered .main .item span a {
+  color: #1a66b3;
+}
+.content .shadow-box .registered .main .item span a:hover {
+  text-decoration: underline;
+}
+.content .shadow-box .registered .main .item .warn {
+  padding-left: 10px;
+  padding-top: 8px;
+  color: #e52a29;
+  display: none;
+}
+.content .shadow-box .registered .submit {
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 60px;
+}
+.content .shadow-box .registered .submit button {
+  width: 180px;
+  height: 44px;
+  background: #ff2832;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 22px;
+  cursor: pointer;
+}
+.content .shadow-box .registered .submit button:hover {
+  background: #f01923;
+}
+
+.line {
+  height: 1px;
+  background: #eeeff0;
+}
+
+/*# sourceMappingURL=index_registered.css.map */

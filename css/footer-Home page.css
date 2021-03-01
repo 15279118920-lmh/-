@@ -1,0 +1,122 @@
+.footer{
+    height: auto;
+    color: #7d7d7d;
+}
+.footer-top{
+    border-top: 2px solid #ff2832;
+    height: 82px;
+    border-bottom: 2px solid #f3f3f3;
+    box-sizing: border-box;
+    background: #fafafa;
+}
+.footer-top .footer-topin{
+    width: 616px;
+    margin: 0 auto;
+}
+.footer-top .footer-topin a{
+    display: inline-block;
+    width: 138px;
+    height: 51px;
+    margin-right: 97px;
+    margin-top: 12px;
+}
+.footer-top .footer-topin a:nth-child(1){
+    background: url("../images/footer_bg.png") no-repeat 0 0;
+}
+.footer-top .footer-topin a:nth-child(2){
+    background: url("../images/footer_bg.png") no-repeat 0 -103px;
+}
+.footer-top .footer-topin a:nth-child(3){
+    background: url("../images/footer_bg.png") no-repeat 0 -155px;
+    margin-right: 0;
+}
+.footer-serves{
+    margin: 0 auto;
+    width: 840px;
+    padding-bottom: 28px;
+    color:  #7d7d7d;
+}
+.footer-serves>dl{
+    float: left;
+    margin-right: 89px;
+}
+.footer-serves>dl:last-child{
+    margin-right: 0;
+}
+.footer-serves>dl dt{
+    font-size: 14px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #0c0817;
+    text-align: center;
+}
+.footer-serves>dl dd{
+    line-height: 20px;
+    text-align: center;
+}
+.footer-serves>dl dd a{
+    color:  #7d7d7d;
+}
+.footer-serves>dl dd:hover a{
+    color: #ff2832;
+    text-decoration: underline;
+}
+.footer-msg{
+    border-top: 1px solid #f2f2f2;
+    box-sizing: border-box;
+}
+.footer-msg .footer-msg-in{
+    width: 940px;
+    margin:  20px auto 0 auto;
+}
+.footer-msg .footer-msg-in .msg-news{
+    text-align: center;
+    color:  #7d7d7d;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+.footer-msg .footer-msg-in .msg-news span{
+    margin: 0 16px;
+}
+.footer-msg .footer-msg-in .msg-news a{
+    color: #7d7d7d;
+}
+.footer-msg .footer-msg-in .msg-news a:hover{
+    color: #f48570;
+    text-decoration: underline;
+}
+.msg-copy{
+    text-align: center;
+}
+.msg-copy>.msg-copy-one{
+    margin-top: 10px;
+}
+.msg-copy>p span{
+    margin: 0 12px;
+}
+.msg-copy>p>a{
+    color: #7d7d7d;
+}
+.msg-copy>p>a:hover{
+    color: #f48570;
+    text-decoration: underline;
+}
+.msg-copy-two>a>img{
+    margin-right: 5px;
+}
+.msg-copy-two{
+    margin-top: 4px;
+}
+.msg-copy-three b{
+    margin-right: 5px;
+}
+.msg-copy-four a{
+    margin-right: 4px;
+}
+.msg-brand{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.msg-brand>a{
+    margin-right: 57px;
+}

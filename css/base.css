@@ -1,0 +1,40 @@
+.clearfix::after{
+	visibility: hidden;
+	display: block;
+	height: 0;
+	content: "";
+	clear: both;
+}
+.clearfix{
+    /*兼容IE6*/
+    *zoom:1;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.cursor{
+	cursor: pointer;
+	/* 将指针的形状改为手形 */
+}
+.line{
+	outline: none;
+	/* 去除边框轮廓线 */
+}
+img{
+	/* 清除图片在IE6浏览器自带的边框BUG */
+/* 	border: none; */
+	/* 清除图片自带的间隙 */
+	vertical-align: top;
+	/* vertical-align: bottom; */
+}
+/* bgi */
+/* 清除背景图片默认间距 */
+.bgi{
+	vertical-align: bottom;
+}
+body{
+	font:12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+}

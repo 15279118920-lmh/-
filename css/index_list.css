@@ -1,0 +1,323 @@
+@charset "UTF-8";
+body {
+  width: 100%;
+  font-size: 12px;
+  font-family: "微软雅黑";
+}
+
+.header {
+  background: #f9f9f9;
+}
+.header .header-in {
+  width: 1200px;
+  margin: 0 auto;
+  height: 34px;
+}
+.header .header-in .logo-in {
+  padding: 5px 0 0 10px;
+  line-height: 24px;
+}
+.header .header-in .logo-in p {
+  display: none;
+}
+.header .header-in .logo-in p b {
+  color: #e52a29;
+}
+.header .header-in .logo-in p a {
+  color: #e52a29;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.header .header-in .logo-in p span {
+  cursor: pointer;
+}
+.header .header-in .logo-in p span:hover {
+  color: #e52a29;
+}
+.header .header-in .logo-in .on {
+  display: block;
+}
+.header .header-in .logo-in .join {
+  color: #ff2832;
+}
+.header .header-in .logo-in .vip {
+  color: #646464;
+}
+.header .nav {
+  padding-top: 2px;
+}
+.header .nav .side-nav li {
+  float: left;
+  padding: 4px 8px 0 7px;
+  line-height: 21px;
+  cursor: pointer;
+  background: url(http://img32.ddimg.cn/upload_img/00363/header/home_sprite.png) no-repeat left -285px;
+}
+.header .nav .side-nav li:first-child {
+  background: none;
+}
+.header .nav .side-nav li:hover {
+  color: #ff2832;
+}
+.header .nav .side-nav li:hover .icon-hover {
+  background: url(http://img32.ddimg.cn/upload_img/00363/header/home_sprite.png) no-repeat right -324px;
+}
+.header .nav .side-nav li .icon-card {
+  display: inline-block;
+  width: 15px;
+  height: 14px;
+  background: url(http://img32.ddimg.cn/upload_img/00363/header/home_sprite.png) no-repeat -40px -86px;
+  position: relative;
+  top: 2px;
+  left: -5px;
+}
+.header .nav .side-nav li .num {
+  color: #ff2832;
+  margin-left: -2px;
+}
+.header .nav .side-nav li .icon-hover {
+  background: url(http://img32.ddimg.cn/upload_img/00363/header/home_sprite.png) no-repeat right -307px;
+  padding-right: 23px;
+  position: relative;
+  left: 5px;
+  top: -1px;
+}
+
+.banner {
+  background: #ffd800;
+}
+.banner .banner-in {
+  width: 1300px;
+  margin: 0 auto;
+  height: 95px;
+}
+.banner .banner-in .logo {
+  margin-top: 20px;
+  margin-right: 58px;
+}
+.banner .banner-in .logo span {
+  font-size: 18px;
+  font-family: "楷体";
+  color: #333;
+  line-height: 55px;
+  font-weight: bold;
+}
+.banner .banner-in .limit {
+  margin-top: 26px;
+}
+.banner .banner-in .limit span {
+  color: #333;
+  line-height: 44px;
+}
+
+.time {
+  margin-top: 40px;
+  background: #3c3c3c;
+}
+.time .time-in {
+  width: 1200px;
+  margin: 0 auto;
+  height: 60px;
+  color: #646464;
+}
+.time .time-in > a {
+  display: inline-block;
+  width: 58px;
+  height: 60px;
+}
+.time .time-in .left-btn {
+  background: url("../images/logo-in/sc_btn.png") no-repeat left top;
+}
+.time .time-in .left-btn:hover {
+  background: url("../images/logo-in/sc_btn.png") no-repeat left -60px;
+}
+.time .time-in .right-btn {
+  background: url("../images/logo-in/sc_btn.png") no-repeat -58px 0;
+}
+.time .time-in .right-btn:hover {
+  background: url("../images/logo-in/sc_btn.png") no-repeat -58px -60px;
+}
+.time .time-in .list-time li {
+  float: left;
+  width: 160px;
+  height: 60px;
+  background: url("../images/logo-in/sc_bg3.gif") no-repeat right top;
+  box-sizing: border-box;
+  padding-top: 6px;
+  letter-spacing: 4px;
+  cursor: pointer;
+}
+.time .time-in .list-time li .show-time {
+  font-size: 20px;
+  display: block;
+  text-align: center;
+}
+.time .time-in .list-time li .msg {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+  top: -5px;
+}
+.time .time-in .list-time .current {
+  background: url(http://img60.ddimg.cn/upload_img/00660/ms/sc_bg2.png) right 0 no-repeat;
+  padding-left: 25px;
+  width: 170px;
+  margin-left: -11px;
+  color: #323232;
+}
+
+.count-down {
+  width: 1200px;
+  margin: 10px auto 30px auto;
+  height: 13px;
+  border-bottom: 1px solid #e2e2e2;
+  color: #969696;
+  font-size: 14px;
+}
+.count-down .time-show {
+  width: 288px;
+  margin: 0 auto;
+  background: #fff;
+  height: 24px;
+  text-align: center;
+  line-height: 24px;
+}
+.count-down .time-show .news {
+  color: #404040;
+}
+.count-down .time-show span {
+  font-size: 24px;
+  color: #ffcc00;
+}
+
+.items {
+  width: 1200px;
+  margin: 0 auto;
+}
+.items .sale {
+  padding-top: 5px;
+  width: 1220px;
+  overflow: hidden;
+}
+.items .sale .list {
+  border: 10px solid #f4f4f4;
+  margin: 0px 20px 20px 0;
+  width: 570px;
+  float: left;
+  height: 302px;
+}
+.items .sale .list:hover {
+  border-color: #ffe867;
+}
+.items .sale .list .show {
+  display: block;
+  width: 300px;
+  background: #000;
+}
+.items .sale .list .show img {
+  width: 300px;
+  height: 300px;
+}
+.items .sale .list .item-info {
+  padding: 30px 10px 10px;
+  height: 260px;
+  float: left;
+  width: 248px;
+  position: relative;
+}
+.items .sale .list .item-info .title {
+  font-size: 14px;
+  line-height: 22px;
+  color: #323232;
+  display: block;
+  height: 40px;
+  overflow: hidden;
+}
+.items .sale .list .item-info .price {
+  padding-top: 10px;
+  line-height: 20px;
+  color: #ff2832;
+}
+.items .sale .list .item-info .price .num {
+  font-size: 20px;
+  padding: 0 6px;
+}
+.items .sale .list .item-info .progress-bar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 17px;
+  width: 100%;
+  background: url(http://img61.ddimg.cn/upload_img/00660/second_buy/second_buy_icon.png) 0 -125px no-repeat;
+}
+.items .sale .list .item-info .progress-bar span {
+  display: block;
+  height: 33px;
+  width: 75%;
+  background: url("../images/logo-in/progress_blank.png") no-repeat right -41px;
+  border-radius: 8px 0 0 8px;
+}
+.items .sale .list .item-info .progress-text {
+  color: #969696;
+}
+.items .sale .list .item-info .icon-buy {
+  position: absolute;
+  bottom: 50px;
+  left: 10px;
+  height: 60px;
+  width: 248px;
+}
+.items .sale .list .item-info .icon-buy .shop {
+  width: 200px;
+  height: 36px;
+  display: block;
+  background: url(http://img61.ddimg.cn/upload_img/00660/miao_shao/icon.png) 0 0 no-repeat;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.items .sale .list .item-info .icon-buy .shop:hover {
+  background: url(http://img61.ddimg.cn/upload_img/00660/miao_shao/icon.png) 0 -36px no-repeat;
+}
+
+.page {
+  width: 1200px;
+  margin: 0 auto 20px auto;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px 0;
+  border: 1px solid #e2e2e2;
+}
+.page a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  line-height: 38px;
+  border: 1px solid #e2e2e2;
+  box-sizing: border-box;
+  color: #969696;
+}
+.page .active {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+  line-height: 38px;
+  border: 1px solid #e2e2e2;
+  background: #ffd800;
+  box-sizing: border-box;
+  color: #969696;
+}
+.page .jump-ipt {
+  width: 40px;
+  height: 40px;
+  outline: none;
+  box-sizing: border-box;
+  margin-right: 8px;
+  text-align: center;
+  border: 1px solid #e2e2e2;
+  color: #969696;
+}
+
+/*# sourceMappingURL=index_list.css.map */
